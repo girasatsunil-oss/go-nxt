@@ -69,31 +69,6 @@ article:hover {
 
 .download-btn {
   display: inline-block;
-  margin-top: 10px;
-  background: linear-gradient(90deg, #00f0ff, #0066ff);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s;
-}
-
-.download-btn:hover {
-  background: linear-gradient(90deg, #0066ff, #00f0ff);
-  transform: scale(1.1);
-}
-
-/* ---------- Footer ---------- */
-footer {
-  margin-top: auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.05);
-  font-size: 0.9rem;
-  color: #aaa;
-}
-.download-btn {
-  display: inline-block;
   margin: 10px;
   background: linear-gradient(90deg, #ff8c00, #ff3c00);
   color: white;
@@ -109,3 +84,11 @@ footer {
   box-shadow: 0 0 20px #ff8c00, 0 0 30px #ff3c00;
 }
 
+/* ---------- Footer ---------- */
+footer {
+  margin-top: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.9rem;
+  color: #aaa;
+}
