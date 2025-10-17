@@ -92,3 +92,20 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
+.download-btn {
+  display: inline-block;
+  margin: 10px;
+  background: linear-gradient(90deg, #ff8c00, #ff3c00);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff8c00, 0 0 30px #ff3c00;
+}
+
